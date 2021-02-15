@@ -145,7 +145,7 @@ SITE_ID = 1
 TIME_ZONE = 'Asia/Seoul'
 
 STATIC_URL = '/static/'
-static_DIRS = [
+STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'reservation_app', 'static')
 ]
 
@@ -172,3 +172,39 @@ INTERNAL_IPS = [
     '127.0.0.1',
     # ...
 ]
+
+# SITE_ID = 1
+#
+# # Static files (CSS, JavaScript, Images)
+# # https://docs.djangoproject.com/en/2.2/howto/static-files/
+#
+# TIME_ZONE = 'Asia/Seoul'
+#
+# STATIC_URL = '/static/'
+# static_DIRS = [
+#     os.path.join(BASE_DIR, 'reservation_app', 'static')
+# ]
+#
+# MEDIA_ROOT = os.path.join(BASE_DIR,'_media')
+#
+# MEDIA_URL = '/media/'
+#
+# CRISPY_TEMPLATE_PACK = 'bootstrap4'
+#
+# LOGIN_REDIRECT_URL = '/skilnote1/myshortcut/'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+#
+# DJANGO_NOTIFICATIONS_CONFIG = {
+#     'USE_JSONFIELD': True
+# }
+#
+# # BOOTSTRAP4 = {
+# #     'include_jquery': True,
+# # }
+#
+#
+# INTERNAL_IPS = [
+#     # ...
+#     '127.0.0.1',
+#     # ...
+# ]

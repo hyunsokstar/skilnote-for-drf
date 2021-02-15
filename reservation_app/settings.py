@@ -20,7 +20,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.static',
     # 'markdownx',
     'crispy_forms',
     'easy_thumbnails',
@@ -145,7 +145,7 @@ SITE_ID = 1
 TIME_ZONE = 'Asia/Seoul'
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
+static_DIRS = [
     os.path.join(BASE_DIR, 'reservation_app', 'static')
 ]
 
